@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #E8E3DA;
+  color: #1C1C1C;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.tagline {
+  margin-top: 10px;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 20px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.section {
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.section h1 {
+  font-size: 28px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.drops ul {
+  list-style: none;
+  padding: 0;
+}
+
+.drops li {
+  margin: 10px 0;
+}
+
+button {
+  padding: 15px 30px;
+  border: none;
+  background: #1C1C1C;
+  color: white;
+  cursor: pointer;
+}
+
+.shop {
+  padding: 80px 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+}
